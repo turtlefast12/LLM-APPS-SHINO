@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="http://www.theunwindai.com">
-    <img src="docs/banner/unwind_black.png" width="900px" alt="Unwind AI">
-  </a>
-</p>
-
 <div align="center">
 
 # Awesome LLM Apps
@@ -77,31 +71,6 @@ streamlit run travel_agent.py
 
 > 📬 New templates drop weekly. [Get them in your inbox on Unwind AI](https://www.theunwindai.com).
 
-## 🙏 Thanks to our sponsors
-
-<table align="center" cellpadding="16" cellspacing="12">
-  <tr>
-    <td align="center">
-      <a href="https://devtoolsacademy.link/shubham" target="_blank" rel="noopener" title="Vorflux">
-        <img src="docs/banner/sponsors/vorflux.png" alt="Vorflux" width="500">
-      </a>
-      <br>
-      <a href="https://devtoolsacademy.link/shubham" target="_blank" rel="noopener" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-        Vorflux
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://sponsorunwindai.com/" title="Become a Sponsor">
-        <img src="docs/banner/sponsor_awesome_llm_apps.png" alt="Become a Sponsor" width="500">
-      </a>
-      <br>
-      <a href="https://sponsorunwindai.com/" style="text-decoration: none; color: #333; font-weight: bold; font-size: 18px;">
-        Become a Sponsor
-      </a>
-    </td>
-  </tr>
-</table>
-
 ## 📂 Browse all templates
 
 ### 🧩 Agent Skills
@@ -109,11 +78,21 @@ streamlit run travel_agent.py
 *Give your coding agent new abilities. One command to install, plain English to use. Every skill ships real code and passes a security + eval CI gate. Works with Claude Code, Codex, Cursor, and other coding agents. [Browse all skills →](agent_skills/)*
 
 *   [⚰️ Project Graveyard](agent_skills/project-graveyard/) - Finds every side project you abandoned, tells you why each one died, and helps you finish the one worth going back to
+*   [👁️ First Reader](agent_skills/first-reader/) - Simulates real readers going through your draft and reports where they lose interest, where they stop reading, and what they remember afterward, without rewriting a word
 *   [🔭 Scope Creep Detector](agent_skills/scope-creep-detector/) - Checks whether a diff grew beyond its stated intent and recommends what to keep, split, or justify
 *   [🏺 Commit Archaeologist](agent_skills/commit-archaeologist/) - Reconstructs why a file or code region exists from its introducing commit, later edits, co-changes, and intent clues
 *   [🩺 Dependency Doctor](agent_skills/dependency-doctor/) - Checks a dependency manifest for standard-library pins, obsolete backports, unpinned entries, duplicate constraints, and yanked releases
-*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5 as advisor, GPT-5.6 as orchestrator, and Gemini 3.7 Flash as worker
+*   [🧠 Advisor Orchestrator Worker](agent_skills/advisor-orchestrator-worker/) - Meta Loop with Claude Fable 5.1 as advisor, GPT-6 Astra as orchestrator, and Gemini 3.8 Flash as worker
+*   [🎙️ Thinking Out Loud](agent_skills/thinking-out-loud/) - Echoes a voice ramble back as a scannable brief, with the model's guesses quarantined and your reversals flagged
 *   [♾️ Self-Improving Agent Skills](agent_skills/self-improving-agent-skills/) - Automatically optimize agent skills using Gemini and ADK
+
+### 🛠️ Standalone Apps & Tools
+
+*Standalone web apps, creative tools, and browser extensions for everyday workflows.*
+
+*   [✏️ Excaliflow - Hand-Drawn Diagrams with Live Animated Flows](advanced_llm_apps/excaliflow/) - Sketch system architectures and AI agent workflows on an Excalidraw-style canvas with live animated arrows and video export
+*   [🪡 Needle - A New Way to Find](advanced_llm_apps/needle/) - Search webpages by meaning and highlight the strongest source sentence, using a Chrome extension powered by TypeSafe Jev
+*   [🌀 Ripple - Change One Thing, Find What Else Needs to Change](advanced_llm_apps/ripple/) - Find related inconsistencies and suggested fixes as you edit a Google Doc, using TypeSafe Jev and Gemini
 
 ### 🌱 Starter AI Agents
 
@@ -184,6 +163,7 @@ streamlit run travel_agent.py
 *   [✨ Multimodal Design Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/) - Design critiques from a Gemini-powered expert panel
 *   [🎨 🍌 Multimodal UI/UX Feedback Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/) - Landing page feedback plus an auto-generated improved version
 *   [🌏 AI Travel Planner Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/) - A complete trip itinerary, crafted by a team
+*   [⚖️ LLM Panel Agent Team](advanced_ai_agents/multi_agent_apps/agent_teams/llm_panel_agent_team/) - Three vendors review the same diff blind, then argue it out anonymously
 
 ### 🗣️ Voice AI Agents
 
@@ -191,7 +171,7 @@ streamlit run travel_agent.py
 
 *   [🗣️ AI Audio Tour Agent](voice_ai_agents/ai_audio_tour_agent/) - Self-guided audio tours from your location, interests, and pace
 *   [📞 Customer Support Voice Agent](voice_ai_agents/customer_support_voice_agent/) - Voice answers grounded in your own docs
-*   [🛡️ Insurance Claim Live Agent Team](voice_ai_agents/insurance_claim_live_agent_team/) - Real-time voice claim intake with Gemini Live
+*   [🛡️ Insurance Claim Live Agent Team](voice_ai_agents/insurance_claim_live_agent_team/) - Voice claim intake on Gemini 3.8 Live that writes a field notebook, looks at damage through the webcam, and sketches the incident
 *   [🔊 Voice RAG Agent (OpenAI SDK)](voice_ai_agents/voice_rag_openaisdk/) - Ask your PDFs questions, hear the answers
 *   [🎙️ OpenSource Voice Dictation Agent (Wispr Flow clone)](https://github.com/akshayaggarwal99/jarvis-ai-assistant) <sub>↗ external</sub> - Open-source dictation that types where you talk
 
